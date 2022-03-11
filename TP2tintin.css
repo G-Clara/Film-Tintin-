@@ -1,0 +1,213 @@
+
+.warpper{
+    background-color: rgb(104, 102, 102);
+    color: lightgrey;
+}
+h1{
+    background-color: rgb(238, 238, 0);
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-size:24;
+}
+
+
+h2 {
+    color: black;
+    font-weight: 2px;
+    font-size: 15;
+    background-color: rgb(248, 207, 96);
+}
+
+h3{
+    color: black;
+    font-weight: 2px;
+    font-size: 14;
+    background-color: rgb(248, 207, 96);
+}
+
+p{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Learning-Curve-Pro'; /*, Trebuchet MS, sans-setif;*/
+    color: black;
+}
+
+p::first-letter {
+    font-size:300%;
+}
+
+/* -------------------------------------------------------- Main ---------------------------------------------------  */
+
+.enligne li{
+    display: inline;
+    margin: 10px;
+}
+
+li a{
+    display: inline-block;
+    width: 100px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: -1px -1px 0 #888;
+    font-weight: bold;
+    text-align: center;
+    background: #b25151;
+}
+
+li a:hover, li a:focus, li a:active {
+    padding: 4px 9px;
+    border: 1px solid #bbb;
+    background: #fff;
+    color: #aaa;
+    text-shadow: 0 0 0;
+}
+
+
+/* --------------------------------------------------------- Film --------------------------------------------------  */
+
+
+/* --------------------------------------------------------- Synopsis ----------------------------------------------  */
+
+img[alt="dupond et dupont"]{
+    width: 200px;
+    height: 118px;
+}
+
+/* --------------------------------------------------------- Développement -----------------------------------------  */
+
+img[alt="barque et avion"]{
+    width: 400px;
+    height: 170px;
+    float: right;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+img[alt="barque avec milou"]{
+    width: 600px;
+    height: 340px; 
+}
+
+.imagecentre{
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------ Fiche technique --------------------------------------------  */
+
+ul li:hover {
+    background-color:rgb(248, 207, 96);
+}
+
+
+/* ----------------------------------------------------------- Musique ----------------------------------------------  */
+
+
+/* ----------------------------------------------------------- Les acteurs ------------------------------------------  */
+
+
+img[alt="Steven Spielberg"]{
+    width: 155px;
+    height: 210px;
+}
+
+img[alt="Andrew Bell"]{
+    width: 155px;
+    height: 210px;
+}
+
+img[alt="Andy Serkis"]{
+    width: 155px;
+    height: 210px; 
+}
+
+img[alt="Daniel Craig"]{
+    width: 155px;
+    height: 210px;
+}
+
+img[alt="Simon Pegg"]{
+    width: 155px;
+    height: 210px;
+}
+
+img[alt="Nick Frost"]{
+    width: 155px;
+    height: 210px;
+}
+
+figure{
+    display: inline-block;
+    margin: 5px;
+    padding: 0px;
+    vertical-align:top;
+} 
+
+.ligne	{
+    display: table;
+    margin : auto;
+}
+
+/* ----------------------------------------------------------- Para-BD ---------------------------------------------  */
+
+img[alt="voiture 1"]{
+    width: 254;
+    height: 200;
+}
+
+img[alt="voiture 2"]{
+    width: 252;
+    height: 200;
+}
+
+img[alt="voiture 3"]{
+    width: 252;
+    height: 200;
+}
+
+img[alt="voiture 4"]{
+    width: 252;
+    height: 200;
+}
+
+img[alt="voiture 5"]{
+    width: 256;
+    height: 200;
+}
+
+img[alt="voiture 6"]{
+    width: 252;
+    height: 200;
+}
+
+
+table{
+    border-collapse: collapse;
+    border: 4px solid rgb(131, 3, 3);
+    background-color: white;
+    color: rgb(240, 199, 86);
+    font-size: 15px;
+    font-weight: bold;
+    margin:auto;
+}
+th{
+    background-color:rgb(131, 3, 3);
+    border: 2px solid rgb(131, 3, 3);
+    color: rgb(240, 199, 86);
+    text-align: center;
+}
+td{
+    border: 2px solid rgb(131, 3, 3);
+    color: rgb(240, 199, 86);
+}
+tfoot{
+    background-color:rgb(131, 3, 3);
+    color: rgb(240, 199, 86);
+    text-align: center;
+}
+
+
+
+
